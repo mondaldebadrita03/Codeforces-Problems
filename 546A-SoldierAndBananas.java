@@ -14,6 +14,7 @@ public class SoldierAndBananas
 		if(price < n)
 		    System.out.println(0);
 		else
-		    System.out.println(Math.abs(n -price));
+		    //System.out.println(Math.abs(n -price));
+			System.out.println(price - n);
 	}
 }
