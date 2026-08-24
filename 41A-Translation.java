@@ -10,7 +10,7 @@ public class Translation{
 		}
 		int j = s2.length() - 1;
 		
-		for(int i = 0; i < s1.length(); i++){
+		for(int i = 0; i < s1.length() / 2; i++){
 		    if(s1.charAt(i) != s2.charAt(j)){
 		        System.out.println("NO");
 		        return;
