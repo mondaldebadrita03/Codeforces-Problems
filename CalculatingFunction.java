@@ -21,8 +21,6 @@ import java.util.Scanner;
 public class CalculatingFunction{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int sum = 0;
 		long n = sc.nextLong();
         long sum = 0;
 
