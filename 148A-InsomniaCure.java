@@ -1,4 +1,5 @@
 // Approach One (Using loops)
+// Time Complexity : O(d)	d = no. of dragons
 
 import java.util.Scanner;
 public class InsomniaCure {
@@ -26,6 +27,7 @@ public class InsomniaCure {
 }
 
 // Approach Two (Using Inclusion-Exclusion)
+// Time Complexity : O(1)
 
 import java.util.Scanner;
 
