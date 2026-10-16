@@ -18,7 +18,7 @@ public class Main {
 		        a[i] = sc.nextInt();
 		        indexMap.put(a[i], i + 1);
 		        
-		        int count = freqMap.getOrDefault(num, 0) + 1;
+		        int count = freqMap.getOrDefault(a[i], 0) + 1;
 		        freqMap.put(a[i], count);
 		    }
 		    
