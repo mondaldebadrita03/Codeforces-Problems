@@ -10,7 +10,7 @@ public class Main {
             int b = sc.nextInt();
             int c = sc.nextInt();
 
-            if (a > b || (a == b && c % 2 == 0)) {
+            if (a > b || (a == b && c % 2 == 1)) {
                 System.out.println("First");
             } else {
                 System.out.println("Second");
