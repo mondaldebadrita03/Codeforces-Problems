@@ -1,3 +1,4 @@
+// Approach 1
 import java.util.*;
 
 public class Main {
@@ -24,6 +25,36 @@ public class Main {
                     possible = false;
                     break;
                 }
+            }
+
+            System.out.println(possible ? "YES" : "NO");
+        }
+    }
+}
+
+// Approach 2
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+
+            HashSet<Integer> set = new HashSet<>();
+            boolean possible = true;
+
+            for (int i = 0; i < n; i++) {
+                int x = sc.nextInt();
+
+                if (set.contains(x)) {
+                    possible = false;
+                }
+
+                set.add(x);
             }
 
             System.out.println(possible ? "YES" : "NO");
